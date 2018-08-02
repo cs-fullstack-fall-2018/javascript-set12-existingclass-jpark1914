@@ -22,6 +22,16 @@ class Person {
 }
 
 function main() {
+    var giant = new Person("Garruda", 123, 543, 100);
+    var regular = new Person("MJ", 34, 200, 64);
+    alert(giant.bodyMassIndex());
+    alert(regular.bodyMassIndex());
+
+    var personArr = [giant, regular];
+   personArr[1].printPerson();
+
+
+
 
 }
 
